@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>超链接</title>
+	</head>
+	<style>
+		#top{
+			text-align: right;
+			
+		}
+		#bottom{
+			text-align: right;
+			
+		}
+		#a2{
+			font-size: 40px;
+			text-align: center;
+			font-weight: 1000;
+		}
+		#a3{
+			text-align: center;
+			font-size: 20px;
+		}
+		#a4{
+			width: 600px;
+			height: 400px;
+		}
+		#img1{
+			width: 600px;
+			height: 400px;
+		}
+		.form{
+			text-align: center;
+			background-color: black;
+		}
+	</style>
+	<body>
+		<h3 id="top"><a href="#p1" name="p-1">底部</a></h3>
+		
+		<div class="form">
+			<input type="text" onkeydown="javascript:if(event.keyCode==13) search('key'); autocomplete="off" id="key" accesskey="s" class=text"/>
+			<button onclick="search('key');return false;class="button cw- icon"">
+				<i></i>搜索
+			</button>
+		</div>
+		<br>
+		<div style="display: inline-block">
+			<a href="https://dasai.lanqiao.cn/">蓝桥杯官网</a>
+			
+			<a href="https://www.spsspro.com/" target="_top">SPSSPRO</a>
+			
+			<a href="https://www.luogu.com.cn/" target="_blank">洛谷</a>
+			</div>
+		<p id='a3'>
+			<img src="img/惠州学院.jpg" alt="a和b"usemap="#map" width="800px" height="600px"/>
+			<map name="#map">
+				<area shape="react" coords="0,0,800,300" href="Echarts可视化图表.html" target="_blank"/>
+				<area shape="react" coords="0,0,800,600" href="网页定时跳转.html" target="_blank""/>
+			</map>
+			<br>
+			
+		</p>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<div style="width: 1500px; height: 400px;text-align: center;">
+			<img src="img/太空1.jpg"/>
+			<img src="img/太空2.jpg"/>
+			<img src="img/太空3.jpg"/>
+			<img src="img/太空4.jpg"/>
+		</div>
+		
+		<div style="width: 1500px; height: 400px;text-align: center;">
+			<img src="img/宇宙1.jpg"/>
+			<img src="img/宇宙2.jpg"/>
+			<img src="img/宇宙3.jpg"/>
+			<img src="img/宇宙4.jpg"/>
+		</div>
+		
+		<p style="text-align: center;font-style: italic;">亲！到底咯！</p>
+		<h3 id='bottom'><a href="#p-1" name="p1">返回顶部</a></h3>
+</html>
